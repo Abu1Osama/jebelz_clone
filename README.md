@@ -37,7 +37,7 @@ Jebelz is a modern e-commerce website built with Next.js, React, Tailwind CSS, N
 
 ### Home Page
 
-![Home Page](./src/app/Components/home.png)
+![Home Page](./src/app/Components/assets/home.png)
 
 - Description: This screenshot showcases the main landing page of Jebelz with featured products and categories.
 
