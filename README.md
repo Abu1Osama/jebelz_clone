@@ -9,9 +9,7 @@ Jebelz is a modern e-commerce website built with Next.js, React, Tailwind CSS, N
 - [Technologies Used](#technologies-used)
 - [Screenshots](#screenshots)
 - [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-  - [Configuration](#configuration)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
@@ -39,7 +37,7 @@ Jebelz is a modern e-commerce website built with Next.js, React, Tailwind CSS, N
 
 ### Home Page
 
-![Home Page](screenshots/home-page.png)
+![Home Page](./src/app/Components/home.png)
 
 - Description: This screenshot showcases the main landing page of Jebelz with featured products and categories.
 
@@ -57,22 +55,17 @@ Jebelz is a modern e-commerce website built with Next.js, React, Tailwind CSS, N
 
 ## Getting Started
 
-### Prerequisites
-
-Make sure you have the following installed:
-
-- [Node.js](https://nodejs.org/)
-- [MongoDB](https://www.mongodb.com/)
-
 ### Installation
 
-1. Clone the repository:
+- Clone the repository:
 
    ```bash
    git clone https://github.com/your-username/jebelz.git
    cd jebelz
    npm install
+
 ### Usage
+
     npm run dev
 
 
