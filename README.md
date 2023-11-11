@@ -22,7 +22,6 @@ Jebelz is a modern e-commerce website built with Next.js, React, Tailwind CSS, N
 - Shopping cart functionality.
 - Secure payment processing.
 - Order tracking and history.
-- Admin dashboard for managing products, orders, and users.
 
 ## Technologies Used
 
@@ -60,7 +59,7 @@ Jebelz is a modern e-commerce website built with Next.js, React, Tailwind CSS, N
 - Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/jebelz.git
+   git clone https://github.com/Abu1Osama/jebelz_clone
    cd jebelz
    npm install
 

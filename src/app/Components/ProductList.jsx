@@ -81,7 +81,7 @@ function ProductList() {
   }, [search2]);
   return (
    
-    <div className="product-list  mx-5">
+    <div className="product-list  bg-white">
       <div className="bg-gray-100 py-2 px-5">
         <h3 className="text-xl font-semibold">{search2}</h3>
       </div>

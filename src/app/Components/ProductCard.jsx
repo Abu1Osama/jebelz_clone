@@ -29,7 +29,7 @@ window.location.href=`/singlepage?id=${item._id}`
 
       <div className="currency">
         <div className="origin">
-          <strong className="rupee text-sm">AED {(item.price).toFixed(2)}</strong>
+          <strong className="rupee text-sm">₹ {(item.price).toFixed(2)}</strong>
           <p className="text-xs">Inclusive of VAT</p>
         </div>
       </div>
