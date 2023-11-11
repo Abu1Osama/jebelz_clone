@@ -118,7 +118,7 @@ const arr = [
 ];
 function Navbar() {
   const router = useRouter();
-  const Auth = localStorage.getItem("isAuthenticated") || "";
+  const Auth = typeof window !== 'undefined' ? localStorage.getItem("isAuthenticated") || "" : "";
   const username = localStorage.getItem("username") || "user";
   const [selectedOption, setSelectedOption] = useState(options[0]);
   const [selectedCategory, setSelectedCategory] = useState(null);
@@ -214,6 +214,7 @@ function Navbar() {
               {userdetail && (
                 <div className="user-details absolute w-32 h-16 bg-white border top-[40px] right-1">
                   <h1 onClick={()=>localStorage.removeItem("isAuthenticated")}>Logout</h1>
+
                 </div>
               )}
             </button>
