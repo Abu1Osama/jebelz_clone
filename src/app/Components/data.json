@@ -1,0 +1,607 @@
+{
+    "data": {
+        "categoryList": [
+            {
+                "children_count": "-579",
+                "children": [
+                    {
+                        "id": 1667,
+                        "uid": "MTY2Nw==",
+                        "level": 2,
+                        "name": "Coffee",
+                        "path": "1/2/1667",
+                        "url_path": "coffee",
+                        "url_key": "coffee"
+                    },
+                    {
+                        "id": 1659,
+                        "uid": "MTY1OQ==",
+                        "level": 2,
+                        "name": "Domestic Coffee Machines",
+                        "path": "1/2/1659",
+                        "url_path": "domestic-coffee-machines",
+                        "url_key": "domestic-coffee-machines"
+                    },
+                    {
+                        "id": 1658,
+                        "uid": "MTY1OA==",
+                        "level": 2,
+                        "name": "Commercial Coffee Machines",
+                        "path": "1/2/1658",
+                        "url_path": "commercial-coffee-machines",
+                        "url_key": "commercial-coffee-machines1"
+                    },
+                    {
+                        "id": 1631,
+                        "uid": "MTYzMQ==",
+                        "level": 2,
+                        "name": "Office Coffee Machines",
+                        "path": "1/2/1631",
+                        "url_path": "office-coffee-machines",
+                        "url_key": "office-coffee-machines"
+                    },
+                    {
+                        "id": 1597,
+                        "uid": "MTU5Nw==",
+                        "level": 2,
+                        "name": "Espresso Coffee Grinders",
+                        "path": "1/2/1597",
+                        "url_path": "espresso-coffee-grinders",
+                        "url_key": "espresso-coffee-grinders"
+                    },
+                    {
+                        "id": 1662,
+                        "uid": "MTY2Mg==",
+                        "level": 2,
+                        "name": "Manual Brewers",
+                        "path": "1/2/1662",
+                        "url_path": "manual-brewers",
+                        "url_key": "manual-brewers"
+                    },
+                    {
+                        "id": 1660,
+                        "uid": "MTY2MA==",
+                        "level": 2,
+                        "name": "Coffee Accessories",
+                        "path": "1/2/1660",
+                        "url_path": "coffee-accessories",
+                        "url_key": "coffee-accessories"
+                    },
+                    {
+                        "id": 1821,
+                        "uid": "MTgyMQ==",
+                        "level": 2,
+                        "name": " Coffee Roasters",
+                        "path": "1/2/1821",
+                        "url_path": "coffee-roasters",
+                        "url_key": "coffee-roasters"
+                    },
+                    {
+                        "id": 1677,
+                        "uid": "MTY3Nw==",
+                        "level": 2,
+                        "name": "Used Machines",
+                        "path": "1/2/1677",
+                        "url_path": "used-machines",
+                        "url_key": "used-machines"
+                    },
+                    {
+                        "id": 1742,
+                        "uid": "MTc0Mg==",
+                        "level": 2,
+                        "name": "Bundles",
+                        "path": "1/2/1742",
+                        "url_path": "bundles",
+                        "url_key": "bundles"
+                    },
+                    {
+                        "id": 1743,
+                        "uid": "MTc0Mw==",
+                        "level": 2,
+                        "name": "Portable Coffee Makers",
+                        "path": "1/2/1743",
+                        "url_path": "portable-coffee-makers",
+                        "url_key": "portable-coffee-makers"
+                    },
+                    {
+                        "id": 1652,
+                        "uid": "MTY1Mg==",
+                        "level": 2,
+                        "name": "New Arrival",
+                        "path": "1/2/1652",
+                        "url_path": "new-arrival",
+                        "url_key": "new-arrival"
+                    },
+                    {
+                        "id": 1682,
+                        "uid": "MTY4Mg==",
+                        "level": 2,
+                        "name": "New Arrivals",
+                        "path": "1/2/1682",
+                        "url_path": "new-arrivals",
+                        "url_key": "new-arrivals"
+                    },
+                    {
+                        "id": 1751,
+                        "uid": "MTc1MQ==",
+                        "level": 2,
+                        "name": "New Arrivals - KSA",
+                        "path": "1/2/1751",
+                        "url_path": "new-arrivals-ksa",
+                        "url_key": "new-arrivals-ksa"
+                    },
+                    {
+                        "id": 1752,
+                        "uid": "MTc1Mg==",
+                        "level": 2,
+                        "name": "New Arrivals - Oman",
+                        "path": "1/2/1752",
+                        "url_path": "new-arrivals-oman",
+                        "url_key": "new-arrivals-oman"
+                    },
+                    {
+                        "id": 1654,
+                        "uid": "MTY1NA==",
+                        "level": 2,
+                        "name": "Brewers",
+                        "path": "1/2/1654",
+                        "url_path": "espresso-essentials",
+                        "url_key": "brewers"
+                    },
+                    {
+                        "id": 1756,
+                        "uid": "MTc1Ng==",
+                        "level": 2,
+                        "name": "Brewers - KSA",
+                        "path": "1/2/1756",
+                        "url_path": "brewers-ksa",
+                        "url_key": "brewers-ksa"
+                    },
+                    {
+                        "id": 1757,
+                        "uid": "MTc1Nw==",
+                        "level": 2,
+                        "name": "Brewers - Oman",
+                        "path": "1/2/1757",
+                        "url_path": "brewers-oman",
+                        "url_key": "brewers-oman"
+                    },
+                    {
+                        "id": 1653,
+                        "uid": "MTY1Mw==",
+                        "level": 2,
+                        "name": "Coffee Corner",
+                        "path": "1/2/1653",
+                        "url_path": "coffee-beans",
+                        "url_key": "coffee-beans"
+                    },
+                    {
+                        "id": 1758,
+                        "uid": "MTc1OA==",
+                        "level": 2,
+                        "name": "Coffee Corner - KSA",
+                        "path": "1/2/1758",
+                        "url_path": "coffee-corner-ksa",
+                        "url_key": "coffee-corner-ksa"
+                    },
+                    {
+                        "id": 1759,
+                        "uid": "MTc1OQ==",
+                        "level": 2,
+                        "name": "Coffee Corner - Oman",
+                        "path": "1/2/1759",
+                        "url_path": "coffee-corner-oman",
+                        "url_key": "coffee-corner-oman"
+                    },
+                    {
+                        "id": 1651,
+                        "uid": "MTY1MQ==",
+                        "level": 2,
+                        "name": "Top Sellers",
+                        "path": "1/2/1651",
+                        "url_path": "top-sellers",
+                        "url_key": "top-sellers"
+                    },
+                    {
+                        "id": 1780,
+                        "uid": "MTc4MA==",
+                        "level": 2,
+                        "name": "Top Sellers - uae",
+                        "path": "1/2/1780",
+                        "url_path": "top-sellers-uae",
+                        "url_key": "top-sellers-uae"
+                    },
+                    {
+                        "id": 1750,
+                        "uid": "MTc1MA==",
+                        "level": 2,
+                        "name": "Top Sellers - KSA",
+                        "path": "1/2/1750",
+                        "url_path": "top-sellers-ksa",
+                        "url_key": "top-sellers-ksa"
+                    },
+                    {
+                        "id": 1753,
+                        "uid": "MTc1Mw==",
+                        "level": 2,
+                        "name": "Top Sellers - Oman",
+                        "path": "1/2/1753",
+                        "url_path": "top-sellers-oman",
+                        "url_key": "top-sellers-oman"
+                    },
+                    {
+                        "id": 1605,
+                        "uid": "MTYwNQ==",
+                        "level": 2,
+                        "name": "Accessories",
+                        "path": "1/2/1605",
+                        "url_path": "coffee.html/cat",
+                        "url_key": "accessories"
+                    },
+                    {
+                        "id": 1763,
+                        "uid": "MTc2Mw==",
+                        "level": 2,
+                        "name": "Accessories - KSA",
+                        "path": "1/2/1763",
+                        "url_path": "accessories-ksa",
+                        "url_key": "accessories-ksa"
+                    },
+                    {
+                        "id": 1764,
+                        "uid": "MTc2NA==",
+                        "level": 2,
+                        "name": "Accessories - Oman",
+                        "path": "1/2/1764",
+                        "url_path": "accessories-oman",
+                        "url_key": "accessories-oman"
+                    },
+                    {
+                        "id": 105,
+                        "uid": "MTA1",
+                        "level": 2,
+                        "name": "Cleaning Products",
+                        "path": "1/2/105",
+                        "url_path": "deals-for-you.html/cat",
+                        "url_key": "cleaning-products"
+                    },
+                    {
+                        "id": 1765,
+                        "uid": "MTc2NQ==",
+                        "level": 2,
+                        "name": "Cleaning Products - KSA",
+                        "path": "1/2/1765",
+                        "url_path": "cleaning-products-ksa",
+                        "url_key": "cleaning-products-ksa"
+                    },
+                    {
+                        "id": 1766,
+                        "uid": "MTc2Ng==",
+                        "level": 2,
+                        "name": "Cleaning Products - Oman",
+                        "path": "1/2/1766",
+                        "url_path": "cleaning-products-oman",
+                        "url_key": "cleaning-products-oman"
+                    },
+                    {
+                        "id": 1593,
+                        "uid": "MTU5Mw==",
+                        "level": 2,
+                        "name": "Staff Favorites",
+                        "path": "1/2/1593",
+                        "url_path": "barista-tools.html/cat",
+                        "url_key": "staff-favorites"
+                    },
+                    {
+                        "id": 1767,
+                        "uid": "MTc2Nw==",
+                        "level": 2,
+                        "name": "Staff Favorites - KSA",
+                        "path": "1/2/1767",
+                        "url_path": "staff-favorites-ksa",
+                        "url_key": "staff-favorites-ksa"
+                    },
+                    {
+                        "id": 1768,
+                        "uid": "MTc2OA==",
+                        "level": 2,
+                        "name": "Staff Favorites - Oman",
+                        "path": "1/2/1768",
+                        "url_path": "staff-favorites-oman",
+                        "url_key": "staff-favorites-oman"
+                    },
+                    {
+                        "id": 1676,
+                        "uid": "MTY3Ng==",
+                        "level": 2,
+                        "name": "Office Pick's",
+                        "path": "1/2/1676",
+                        "url_path": "office-pick-s",
+                        "url_key": "office-pick-s"
+                    },
+                    {
+                        "id": 1769,
+                        "uid": "MTc2OQ==",
+                        "level": 2,
+                        "name": "Office Pick - KSA",
+                        "path": "1/2/1769",
+                        "url_path": "office-pick-ksa",
+                        "url_key": "office-pick-ksa"
+                    },
+                    {
+                        "id": 1770,
+                        "uid": "MTc3MA==",
+                        "level": 2,
+                        "name": "Office Pick - Oman",
+                        "path": "1/2/1770",
+                        "url_path": "office-pick-oman",
+                        "url_key": "office-pick-oman"
+                    },
+                    {
+                        "id": 1744,
+                        "uid": "MTc0NA==",
+                        "level": 2,
+                        "name": "Barista's Pick",
+                        "path": "1/2/1744",
+                        "url_path": "barista-s-pick",
+                        "url_key": "barista-s-pick"
+                    },
+                    {
+                        "id": 1754,
+                        "uid": "MTc1NA==",
+                        "level": 2,
+                        "name": "Barista's Pick - KSA",
+                        "path": "1/2/1754",
+                        "url_path": "barista-s-pick-ksa",
+                        "url_key": "barista-s-pick-ksa"
+                    },
+                    {
+                        "id": 1755,
+                        "uid": "MTc1NQ==",
+                        "level": 2,
+                        "name": "Barista's Pick - Oman",
+                        "path": "1/2/1755",
+                        "url_path": "barista-s-pick-oman",
+                        "url_key": "barista-s-pick-oman"
+                    },
+                    {
+                        "id": 1681,
+                        "uid": "MTY4MQ==",
+                        "level": 2,
+                        "name": "Capsule/Pod Coffee Machines",
+                        "path": "1/2/1681",
+                        "url_path": "capsule-pod-coffee-machines",
+                        "url_key": "capsule-pod-coffee-machines"
+                    },
+                    {
+                        "id": 1761,
+                        "uid": "MTc2MQ==",
+                        "level": 2,
+                        "name": "Capsule Coffee Machines - KSA",
+                        "path": "1/2/1761",
+                        "url_path": "capsule-coffee-machines-ksa",
+                        "url_key": "capsule-coffee-machines-ksa"
+                    },
+                    {
+                        "id": 1762,
+                        "uid": "MTc2Mg==",
+                        "level": 2,
+                        "name": "Capsule Coffee Machines - Oman",
+                        "path": "1/2/1762",
+                        "url_path": "capsule-coffee-machines-oman",
+                        "url_key": "capsule-coffee-machines-oman"
+                    },
+                    {
+                        "id": 1772,
+                        "uid": "MTc3Mg==",
+                        "level": 2,
+                        "name": "On-The-Go Coffee Makers - Oman",
+                        "path": "1/2/1772",
+                        "url_path": "on-the-go-coffee-makers-oman",
+                        "url_key": "on-the-go-coffee-makers-oman"
+                    },
+                    {
+                        "id": 1771,
+                        "uid": "MTc3MQ==",
+                        "level": 2,
+                        "name": "Home Barista's Pick - Oman",
+                        "path": "1/2/1771",
+                        "url_path": "best-for-home-oman",
+                        "url_key": "best-for-home-oman"
+                    },
+                    {
+                        "id": 1679,
+                        "uid": "MTY3OQ==",
+                        "level": 2,
+                        "name": "Nespresso Machines",
+                        "path": "1/2/1679",
+                        "url_path": "nespresso-machines",
+                        "url_key": "nespresso-machines"
+                    },
+                    {
+                        "id": 1684,
+                        "uid": "MTY4NA==",
+                        "level": 2,
+                        "name": "Brands",
+                        "path": "1/2/1684",
+                        "url_path": "brands",
+                        "url_key": "brands"
+                    },
+                    {
+                        "id": 1775,
+                        "uid": "MTc3NQ==",
+                        "level": 2,
+                        "name": "Top Selling Products",
+                        "path": "1/2/1775",
+                        "url_path": "top-selling-products",
+                        "url_key": "top-selling-products"
+                    },
+                    {
+                        "id": 1782,
+                        "uid": "MTc4Mg==",
+                        "level": 2,
+                        "name": "White Friday Sale",
+                        "path": "1/2/1782",
+                        "url_path": "white-friday-sale",
+                        "url_key": "white-friday-sale"
+                    },
+                    {
+                        "id": 1787,
+                        "uid": "MTc4Nw==",
+                        "level": 2,
+                        "name": "Other Coffee Accessories",
+                        "path": "1/2/1787",
+                        "url_path": "other-coffee-accessories",
+                        "url_key": "other-coffee-accessories"
+                    },
+                    {
+                        "id": 1820,
+                        "uid": "MTgyMA==",
+                        "level": 2,
+                        "name": "Accessories",
+                        "path": "1/2/1820",
+                        "url_path": "new-accessories",
+                        "url_key": "new-accessories"
+                    }
+                ]
+            },
+            {
+                "children_count": "-772",
+                "children": []
+            },
+            {
+                "children_count": "0",
+                "children": []
+            },
+            {
+                "children_count": "0",
+                "children": []
+            },
+            {
+                "children_count": "0",
+                "children": []
+            },
+            {
+                "children_count": "0",
+                "children": []
+            },
+            {
+                "children_count": "0",
+                "children": []
+            },
+            {
+                "children_count": "2",
+                "children": [
+                    {
+                        "id": 1799,
+                        "uid": "MTc5OQ==",
+                        "level": 2,
+                        "name": "Brew Grinders",
+                        "path": "1/1798/1799",
+                        "url_path": "brew-grinders",
+                        "url_key": "brew-grinders"
+                    },
+                    {
+                        "id": 1811,
+                        "uid": "MTgxMQ==",
+                        "level": 2,
+                        "name": "Manual Grinders",
+                        "path": "1/1798/1811",
+                        "url_path": "manual-grinders",
+                        "url_key": "manual-grinders"
+                    }
+                ]
+            },
+            {
+                "children_count": "4",
+                "children": [
+                    {
+                        "id": 1801,
+                        "uid": "MTgwMQ==",
+                        "level": 2,
+                        "name": "Kettles",
+                        "path": "1/1800/1801",
+                        "url_path": "kettles",
+                        "url_key": "kettles"
+                    },
+                    {
+                        "id": 1802,
+                        "uid": "MTgwMg==",
+                        "level": 2,
+                        "name": "Pour Overs",
+                        "path": "1/1800/1802",
+                        "url_path": "pour-overs",
+                        "url_key": "pour-overs"
+                    },
+                    {
+                        "id": 1806,
+                        "uid": "MTgwNg==",
+                        "level": 2,
+                        "name": "Filters",
+                        "path": "1/1800/1806",
+                        "url_path": "filters",
+                        "url_key": "filters"
+                    },
+                    {
+                        "id": 1810,
+                        "uid": "MTgxMA==",
+                        "level": 2,
+                        "name": "Pourovers",
+                        "path": "1/1800/1810",
+                        "url_path": "pourovers",
+                        "url_key": "pourovers"
+                    }
+                ]
+            },
+            {
+                "children_count": "4",
+                "children": [
+                    {
+                        "id": 1804,
+                        "uid": "MTgwNA==",
+                        "level": 2,
+                        "name": "Servers",
+                        "path": "1/1803/1804",
+                        "url_path": "servers",
+                        "url_key": "servers"
+                    },
+                    {
+                        "id": 1805,
+                        "uid": "MTgwNQ==",
+                        "level": 2,
+                        "name": "Drinkwares",
+                        "path": "1/1803/1805",
+                        "url_path": "drinkwares",
+                        "url_key": "drinkwares"
+                    },
+                    {
+                        "id": 1807,
+                        "uid": "MTgwNw==",
+                        "level": 2,
+                        "name": "Barista Tools",
+                        "path": "1/1803/1807",
+                        "url_path": "barista-tools",
+                        "url_key": "barista-tools"
+                    },
+                    {
+                        "id": 1813,
+                        "uid": "MTgxMw==",
+                        "level": 2,
+                        "name": "Drinwares",
+                        "path": "1/1803/1813",
+                        "url_path": "drinwares",
+                        "url_key": "drinwares"
+                    }
+                ]
+            },
+            {
+                "children_count": "0",
+                "children": []
+            },
+            {
+                "children_count": "0",
+                "children": []
+            }
+        ]
+    }
+}

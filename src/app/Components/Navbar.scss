@@ -1,0 +1,319 @@
+#navbar.navbar {
+  // *{
+  //     margin: 0;
+  //     padding: 0;
+  //     box-sizing: border-box;
+  // }
+  .nav-top {
+    .menu-bar {
+      color: white;
+      display: none;
+      margin-left: auto;
+    }
+    background-color: #000000;
+    width: 100%;
+    padding: 10px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+   
+
+
+i{
+
+  border-radius: 4px;
+  background: #fff;
+  color: #373737;
+  padding: 8px 10px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  gap: 10px;
+  font-size: 18px;
+}
+      
+      img {
+        width: 122.058px;
+        height: 40px;
+      }
+    }
+    .search {
+      flex-shrink: 0;
+      width: 588px;
+      height: 36px;
+      margin-left: auto;
+      margin-right: auto;
+      input {
+        border-radius: 4px;
+        background: #1d1d1d;
+        color: white;
+        padding: 10px 20px;
+        height: 100%;
+        width: 100%;
+        outline: none;
+      }
+    }
+    .login-signup {
+      color: white;
+      display: flex;
+      gap: 10px;
+      select {
+        background: #1d1d1d;
+        color: white;
+      }
+      button {
+        border-radius: 4px;
+        background: #fff;
+        color: #373737;
+        padding: 8px 20px;
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+
+        gap: 10px;
+        img {
+          height: 20px;
+          width: 20px;
+        }
+      }
+    }
+  }
+  .nav-bottom {
+    border: 1px solid red;
+    height: 60px;
+  }
+  .category {
+    border-bottom: 1px solid rgb(221, 221, 221);
+
+    margin-bottom: 40px;
+    .first {
+      display: flex;
+      gap: 30px;
+      justify-content: center;
+      align-items: center;
+      background-color: #232f3e;
+      color: white;
+      padding: 14px 0;
+      ul {
+        .category-child {
+          margin-top: 10px;
+          display: flex;
+          position: absolute;
+          left: 0;
+          background: white;
+          color: black;
+          width: 100%;
+          align-items: center;
+          justify-content: space-around;
+          animation-name: abcd;
+          animation-duration: 1s;
+
+          ul {
+            ol {
+              margin-left: 25px;
+              font-size: 14px;
+              // margin-top: 10px;
+              padding: 10px;
+              cursor: pointer;
+            }
+          }
+        }
+
+        li {
+          font-weight: 400;
+          list-style: none;
+          font-size: 14px;
+          // margin-top: 10px;
+          &:hover {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 901px) {
+  #navbar.navbar {
+    .nav-top {
+      .menu-bar {
+        display: block;
+      }
+      .search {
+        display: none;
+      }
+      .login-signup {
+        span {
+          display: none;
+        }
+      }
+      .cart-popup {
+        width: 90% !important;
+        z-index: 2000;
+      }
+      .open {
+        display: block;
+      }
+      // .serch {
+      //   position: fixed;
+      //   top: 60px;
+      //   background: black;
+      //   z-index: 999;
+      //   width: 100%;
+      //   padding: 10px;
+      //   box-sizing: border-box;
+      //   left: 0;
+      // }
+      .logo {
+        img {
+          // width: 100%;
+        }
+      }
+      .content {
+        padding: 0px;
+        ul {
+          gap: 5px;
+          .partition {
+            display: none;
+          }
+          li {
+            span {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+
+    .category {
+      transition: 1s left;
+      position: absolute;
+      width: 90%;
+      z-index: 1000;
+      .first {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 10px;
+
+        // margin-top: 50px;
+        ul {
+          width: 100%;
+          .category-child {
+            display: block;
+            position: static;
+            padding: 10px 0;
+            border-radius: 4px;
+          }
+        }
+      }
+    }
+    @keyframes abcd {
+      from {
+        height: 0px;
+      }
+      to {
+        height: max-content;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 601px) {
+  #navbar.navbar {
+    .nav-top {
+      .menu-bar {
+        display: block;
+      }
+      .search {
+        display: none;
+      }
+      .login-signup {
+        span {
+          display: none;
+        }
+        .country{
+          display: none;
+        }
+      }
+      .cart-popup {
+        width: 90% !important;
+        z-index: 2000;
+      }
+      .open {
+        display: block;
+      }
+      // .serch {
+      //   position: fixed;
+      //   top: 60px;
+      //   background: black;
+      //   z-index: 999;
+      //   width: 100%;
+      //   padding: 10px;
+      //   box-sizing: border-box;
+      //   left: 0;
+      // }
+      .logo {
+        img {
+          // width: 100%;
+        }
+      }
+      .content {
+        padding: 0px;
+        ul {
+          gap: 5px;
+          .partition {
+            display: none;
+          }
+          li {
+            span {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+
+    .category {
+      transition: 1s left;
+      position: absolute;
+      width: 90%;
+      z-index: 1000;
+      .first {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 10px;
+
+        // margin-top: 50px;
+        ul {
+          width: 100%;
+          .category-child {
+            display: block;
+            position: static;
+            padding: 10px 0;
+            border-radius: 4px;
+          }
+        }
+      }
+    }
+    @keyframes abcd {
+      from {
+        height: 0px;
+      }
+      to {
+        height: max-content;
+      }
+    }
+  }
+}

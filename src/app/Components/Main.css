@@ -1,0 +1,27 @@
+.slick-dots.slick-thumb {
+    bottom: 10px; /* Adjust the position of the dots */
+  }
+  
+  .slick-dots.slick-thumb li {
+    display: inline-block;
+    margin: 0 8px; 
+  }
+  
+  .slick-dots.slick-thumb li button:before {
+    content: "";
+    display: block;
+    width: 30px; /* Adjust the width of the dot line */
+    height: 8px; /* Adjust the height of the dot line */
+    background-color: #000; /* Adjust the color of the dot line */
+    opacity: 10; /* Adjust the opacity of the dot line */
+    border-radius: 10px;
+    background: white;
+    color: black;
+    border: 1px solid;
+  }
+  
+  .slick-dots.slick-thumb li.slick-active button:before {
+    opacity: 1; /* Adjust the opacity of the active dot line */
+    color :black;
+    background-color: #000;
+  }
