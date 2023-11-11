@@ -119,7 +119,7 @@ const arr = [
 function Navbar() {
   const router = useRouter();
   const Auth = typeof window !== 'undefined' ? localStorage.getItem("isAuthenticated") || "" : "";
-  const username = localStorage.getItem("username") || "user";
+  const username = typeof window !== 'undefined' ? localStorage.getItem("username") || "user" : "user";
   const [selectedOption, setSelectedOption] = useState(options[0]);
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [category, setCategory] = useState([]);

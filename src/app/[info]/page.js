@@ -12,8 +12,7 @@ import Cart from "../Components/Cart";
 import Login from "../Components/Login";
 
 function page({ params }) {
-  const Auth = localStorage.getItem("isAuthenticated");
-  console.log(Auth);
+
   return (
     <div>
       {params.info == "payment" && <Payment />}
