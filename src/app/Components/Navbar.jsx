@@ -162,11 +162,11 @@ function Navbar() {
     }
   }, [Auth]);
 
-  const movetocart = () => {
-    {
-      !Auth ? router.push("/login") : router.push("/cart");
-    }
-  };
+  // const movetocart = () => {
+  //   {
+  //     !Auth ? router.push("/login") : router.push("/cart");
+  //   }
+  // };
   const userdetails = () => {
     setUserDetails(true);
   };
@@ -219,10 +219,12 @@ function Navbar() {
               )}
             </button>
           </Link>
-          <button onClick={movetocart}>
+          <Link href={"/cart"}>
+          <button >
             <Image src={carticon} alt="" />
             <span>cart</span>
           </button>
+          </Link>
         </div>
       </div>
       <div style={{ left: popup }} className="category">

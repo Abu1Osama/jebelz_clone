@@ -9,7 +9,7 @@ import Sidebar from "../Components/Sidebar";
 import ProductList from "../Components/ProductList";
 import Singlepage from "../Components/Singlepage";
 import Cart from "../Components/Cart";
-import Login from "../Components/Login";
+import PrivateRoute from "../Components/PrivateRoute";
 
 function page({ params }) {
 
@@ -22,7 +22,7 @@ function page({ params }) {
       {params.info == "productlist" && <ProductList />}
       {params.info == "singlepage" && <Singlepage />}
       {/* {Auth ? params.info == "cart" && <Cart /> : <Login />} */}
-      {params.info == "cart" && <Cart />}
+      {params.info == "cart" && <PrivateRoute><Cart /></PrivateRoute>}
     </div>
   );
 }
