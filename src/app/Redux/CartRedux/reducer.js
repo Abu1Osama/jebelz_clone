@@ -30,7 +30,7 @@ export const CartReducer = (state = initState, { type, payload }) => {
     case UPDATE_CART_ITEM_QUANTITY:
       const { itemId, quantity } = payload;
       const updatedCart = state.cart.map((item) => {
-        if (item.id === itemId) {
+        if (item.product._id === itemId) {
           return {
             ...item,
             quantity: quantity

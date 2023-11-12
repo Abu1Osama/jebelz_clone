@@ -42,7 +42,6 @@ export const getCart = (url) => (dispatch) => {
     })
     .then((res) => {
       dispatch(getCartSuccess(res.data));
-      console.log(res);
     })
     .catch(() => dispatch(CartFailure()));
 };
@@ -139,7 +138,6 @@ export const updateCartItemQuantity = (itemId, quantity) => (dispatch) => {
       dispatch({
         type: UPDATE_CART_ITEM_QUANTITY,
         payload: {
-          itemId,
           quantity,
         },
       });
@@ -147,5 +145,6 @@ export const updateCartItemQuantity = (itemId, quantity) => (dispatch) => {
     })
     .catch((error) => {
       dispatch(CartFailure());
+      console.log(error)
     });
 };
